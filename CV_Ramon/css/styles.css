@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*Clases Generales*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #898980;
+}
+
+/*header*/
+
+
+header h1{
+    text-align: center;
+    background-color: #C5DAC1;
+}
+
+/*Main content*/
+
+main section.banner{
+    background-image: url("");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main section.margen{
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+section.margen p{
+    text-align: justify;
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+section.margen strong{
+    font-style: italic;
+}
+
+main h2{
+    background-color: #DEF2C8;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: #C5DAC1;
+}

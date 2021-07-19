@@ -15,7 +15,7 @@ main section.banner{
     height: 343px;
 }
 
-main section.banner h1,p{
+main section.banner h1,p.intro{
     max-width: 80%;
     margin: 30px auto;
 }

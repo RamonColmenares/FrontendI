@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*Clases Generales*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #898980;
+}
+
+/*header*/
+
+.banner{
+    background-image: url("../img/como-arreglar-fotos-borrosas-programas-620x349.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.derecha{
+    max-width: 80%;
+    margin: 30px auto;
+    Text-align: right
+}
+
+header h1{
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*Main content*/
+
+main section{
+    background-color: #BCD0C7;
+}
+
+main section{
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+body p span{
+    Text-align: justify;
+    text-decoration: uppercase;
+    font-style: inherit;
+    font-weight: bolder;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: #C5DAC1;
+}
