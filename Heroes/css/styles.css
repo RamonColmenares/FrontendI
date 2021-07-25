@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{ box-sizing: border-box }
+
+/*Clases Generales*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0%;
+}
+
+/*header*/
+
+.BarraSup {
+    width: 100vw;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px 0px 10px 10px;
+    color: #000000;
+    font-size: 15px;
+}
+
+h1{
+    width: 100vw;
+    height: 101px;
+    margin: 0%;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 28px 0px 26px 28px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/*Main content*/
+
+main{
+    width: 960px;
+    height: 530px;
+    height: 336px;
+    margin-bottom: 151px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Contenedor {
+    position: inherit;
+    width: 960px;
+    height: 336px;
+    margin-top: 292px; 
+    margin-bottom: 151px;
+}
+
+.tamanioCard{
+    width: 300px;
+}
+
+.card{
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.card.batman h2{
+    width: 122px;
+    height: 35px;
+    position: absolute;
+    top: 74px;
+    right: 89px;
+    bottom: 227px;
+    left: 89px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.card.harley h2{
+    width: 171px;
+    height: 35px;
+    position: absolute; 
+    top: 74px;
+    right: 64px;
+    bottom: 227px;
+    left: 65px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0%;
+}
+
+.ImagenCard {
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    top: -192px;
+    bottom: 335px;
+}
+
+.ImagePerfil {
+    position: absolute;
+    top: -66px;
+    right: 89px;
+    bottom: 282px;
+    left: 89px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.corazon{
+    position: absolute;
+    top: -149.88px;
+    left: 21px;
+    z-index: 1;
+}
+
+.texto{
+    position: absolute;
+    top: 119px;
+    right: 17px;
+    bottom: 1048px;
+    left: 16px;
+    margin: 0%;
+}
+
+.boton{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    top: 269px;
+    right: 86.22px;
+    bottom: 18.48px;
+    left: 85px;
+    background: #00669F;
+    padding: 15px;
+    color: #F3F3F3;
+    font-size: 15px;
+    text-align: center;
+    margin: 0%;
+}
+
+main #batman1{
+    width: 300px;
+}
+
+main #Harley{
+    width: 300px;
+    position: relative;
+    left: 330px;
+    top: -336px;
+}
+
+main #batman2{
+    width: 300px;
+    position: relative;
+    left: 660px;
+    top: -672px;
+}
+
+/*Footer*/
+
+footer{
+    width: 100vw;
+    height: 51px;
+    padding: 16px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    color: #FFF9F9
+}
+
+footer p{
+    margin: 0%;
+}
