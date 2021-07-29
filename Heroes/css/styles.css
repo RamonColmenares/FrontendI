@@ -57,6 +57,7 @@ main{
 }
 
 .card{
+    position: relative;
     width: 300px;
     height: 336px;
     background-color: #F3F3F3;

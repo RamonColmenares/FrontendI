@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*Clases Generales*/
+
+*{ 
+    box-sizing: border-box;
+    font-family: roboto;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/*header*/
+
+header{
+    margin-bottom: 2rem;
+}
+
+.barraDesc{
+    height: auto;
+    padding-left: 1.3rem;
+    background-color: #D1891C;
+    font-size: 1rem;
+    color: #333333;
+}
+
+h1{
+    font-size: 1.5rem;
+    padding: 0.8rem 1.3rem;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    background-color: #00669F;
+    color: #FFFFFF;
+}
+
+/*Main content*/
+
+main{
+    position: relative;
+}
+
+h2{
+    font-size: 1.3rem;
+    height: 1.3rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    height: 28.5rem;
+    width: 16.7rem;
+    margin: 2rem;
+    border-top-left-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 224.3px);
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+#texto_bat{
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+}
+
+.descripcion{
+    margin: 0.91rem;
+}
+
+.button{
+    margin-bottom: 1.4rem;
+    padding: 0.75rem;
+    width: 7.2rem;
+    height: 2.3rem;
+    text-align: center;
+    color: #F3F3F3;
+    background-color: #00669F;
+}
+
+.color_gris{
+    background-color: #F3F3F3;
+}
+
+.img_perfil{
+    position: absolute;
+    top: 6.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+    width: 7.9rem;
+    height: 7.9rem;
+}
+
+.img_fondo{
+    border-top-left-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.7rem;
+    height: 10.2rem;
+}
+
+.corazon{
+    margin: 1rem;
+    background-image: url(../img/Corazon.png);
+    align-self: flex-start;
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.4rem;
+    height: 1.2rem;
+}
+
+.batman-perfil{
+    background-image: url(../img/Perfil_batman.png);
+}
+.batman-fondo{
+    background-image: url(../img/fondo_batman.png);
+}
+
+.wonderWoman-perfil{
+    background-image: url(../img/perfil_wonderWoman.png);
+}
+.wonderWoman-fondo{
+    background-image: url(../img/fondo_wonderWoman.png);
+}
+
+.superman-perfil{
+    background-image: url(../img/perfil_superman.png);
+}
+.superman-fondo{
+    background-image: url(../img/fondo_superman.png);
+}
+
+.harley-perfil{
+    background-image: url(../img/perfil_harley.png);
+}
+.harley-fondo{
+    background-image: url(../img/fondo_harley.png);
+}
+
+.boton_azul{
+    position: absolute;
+    top: calc(50% - 2rem);
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.66666rem;
+    font-size: 2rem;
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    background-color: #00669F;
+    color: #FFF9F9;
+}
+
+/*Footer*/
+footer{
+    position: relative;
+    margin-top: 2rem;
+    background-color: #00669F;
+}
+
+footer p{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1.25rem;
+    color: #FFF9F9;
+}
+
+#logoGit{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 1rem;
+    width: 5.5rem;
+    height: 1.5rem;
+    background-image: url(../img/github_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 660px) {
+    .boton_azul{
+        margin-right: 2rem;
+        top: 29.5rem;
+    }
+
+    .card.color_gris.queen{
+        display: none;
+    }
+
+    .superman-perfil{
+        background-image: url(../img/perfil_superman2.png);
+    }
+
+    .card.color_gris.bat{
+        margin-top: 1rem;
+    }
+
+    header{
+        margin-bottom: 0;
+    }
+
+    .descripcion.bat{
+        display: none;
+    }
+
+    #texto_bat{
+        visibility: visible;
+        top: 16.05208333333333rem;
+    }
+
+    #h2_bat{
+        margin-bottom: 8.583333333333333rem;
+    }
+}
